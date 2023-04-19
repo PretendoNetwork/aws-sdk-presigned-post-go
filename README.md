@@ -60,3 +60,8 @@ func main() {
 	fmt.Printf("%+v\n", res)
 }
 ```
+
+## Disclaimers
+
+1. _**This has only been tested on DigitalOcean Spaces, though it should work on any s3-compatible server**_
+2. _**I was not able to find a way to get pre-formatted endpoints from the config alone, so a small regex is used to find and replace inside the endpoint string to add the bucket**_
